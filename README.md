@@ -6,11 +6,11 @@ Sra-tools as well the aligner or other tools are very convienient to be installe
 [Miniconda installtion page](https://docs.conda.io/en/latest/miniconda.html "Miniconda installtion page"). Conda suggest to modify the shell prompt after installation. I wuld say no and just add conda/bin (usually, it is ~/mniconda3/bin) to path. Now, install [sra-tools](https://anaconda.org/bioconda/sra-tools "sra-tooks installtion page in conda"), [salmon](https://anaconda.org/bioconda/salmon "salmon installtion page in conda"). etc. You are to do it once for a new user, then sometimes [update conda](https://docs.conda.io/projects/conda/en/latest/commands/update.html) if you like.
 
 ## dbGaP key and folder
-Usually, the FastQ file is controlled thing and you are to have access. Technically, it means that you have the keyfile usually, it name is something like prj_NNNNNNN.ngc. NNNNN is a number of dbGaP -- our is 23539. To start working the project, say:
+Usually, the FastQ file is controlled thing and you are to have access. Technically, it means that you have the keyfile from dbGaP. Usually, its name is something like prj_NNNNNNN.ngc. NNNNN is a number of dbGaP -- our is 23539. To start working with the project, say:
 
 `vdb-config --import prj_23539.ngc`
 
-The command will import the keyfile and it will create a folder ~/ncbi/dbGaP-23539 (project number is exctly the projrvt number you work with). It happens only once. All the commands like prefetch, fatq-dump, etc are to be run form this folder.
+The command will import the keyfile and it will create the project work folder ~/ncbi/dbGaP-23539 (project number is the dbGaP projret number you work with). It happens only once. All the commands like prefetch, fatq-dump, etc are to be run form this folder. You are not supposed to change the folder name.
 
 ## dbGaP key and folder
 
