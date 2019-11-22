@@ -7,6 +7,7 @@ Sra-tools as well the aligner or other tools are very convienient to be installe
 
 ## dbGaP accession
 Usually, the FastQ file is controlled thing and you are to have access. Technically, it means that you have the keyfile usually, it name is something like prj_NNNNNNN.ngc. NNNNN is a number of dbGaP -- our is 23539. To start working the project, say:
+
 `vdb-config --import prj_23539.ngc`
 
 ## FastQ 
