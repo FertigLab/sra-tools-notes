@@ -3,4 +3,4 @@ It is an outline of sra-tools usage routine. First, the copmpute (instance) is t
 
 ## Installation
 Sra-tools as well the aligner or other tools are very convienient to be installed with conda. First, install conda itself. 
-[Miniconda installtion page]{https://docs.conda.io/en/latest/miniconda.html Miniconda installtion page}
+[Miniconda installtion page](https://docs.conda.io/en/latest/miniconda.html Miniconda installtion page)
