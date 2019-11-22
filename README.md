@@ -12,9 +12,9 @@ Usually, the FastQ file is controlled thing and you are to have access. Technica
 
 The command will import the keyfile and it will create the project work folder ~/ncbi/dbGaP-23539 (project number is the dbGaP projret number you work with). It happens only once. All the commands like prefetch, fatq-dump, etc are to be run form this folder. You are not supposed to change the folder name.
 
-## dbGaP key and folder
+## dbGaP accession number
 
-To download anything with sratools, you are to know its SRR**** accesion ID. The [Run Selector](https://trace.ncbi.nlm.nih.gov/) website is what you need. To find the study you need, go to dbGaP page of the study, e.g. https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001709.v1.p1  and in the left lower corner of 'Molecular datasets' tab click the 'Run selector' link. Choose the data type ('RNA'), etc. Select all the files you need, and then download the text file with the SRR's of all the files you need (accesion list). RuniInfoTable option contains a text table, a line per SRR, with SRR's as first field and a lot of other information. 
+To download a dbGaP file using sra-tools, you are to know the file's SRR accesion ID. The [Run Selector](https://trace.ncbi.nlm.nih.gov/) website shows the IDs. Go to dbGaP page of the study, e.g. (https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001709.v1.p1), and in the left lower corner of 'Molecular datasets' tab click the 'Run selector' link. Choose the data type (e.g., 'RNA'), etc. Select all the files you need, and then download the text file with the SRR IDs of all the files you need (accesion list). Alternatively, you can download RuniInfoTable that contains a text table, a line per SRR, with SRR's as first field and a lot of other information. 
 
 ## FastQ 
 Usually, we do not need all the fatstq files simultaneously -- so, the best option is to write a script that reads the SRR list, and for each SRR does the foolowing (again, the workind folder for all sra-tools is: ~/ncbi/dbGaP-23539).
