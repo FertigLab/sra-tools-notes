@@ -18,7 +18,7 @@ To download anything with sratools, you are to know its SRR**** accesion ID. The
 
 ## FastQ 
 Usually, we do not need all the fatstq files simultaneously -- so, the best optin is to writ a script that reads the SRR list, and for each SRR does the foolowing (again, the workind folder for all sra-tools is: ~/ncbi/dbGaP-23539).
-
-`cd ~/ncbi/dbGaP-23539`
-`prefetch SRR10003688`
+`
+cd ~/ncbi/dbGaP-23539
+prefetch SRR10003688`
 
