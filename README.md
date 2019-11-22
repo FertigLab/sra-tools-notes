@@ -1,5 +1,5 @@
 # Some notes on sra-tools usage
-It is an outline of sra-tools usage routine. First, the copmpute (instance) is to have enough memory (16G? -- maybe, 8G), and to have disk space to kepp raw data for at least one experiment. It coukd be 250Gish if we plan to work with fasta.
+It is an outline of sra-tools usage routine. First, the copmputer (e.g. AWS instance) is to have enough memory (16G? -- maybe, 8G), and to have disk space to keep the raw data for at least one experiment. It could be 250Gish if we plan to work with RNASeq fastq/fasta.
 
 ## Installation
 Sra-tools as well the aligner or other tools are very convienient to be installed with conda. First, install conda itself. 
