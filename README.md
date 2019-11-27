@@ -3,7 +3,7 @@ It is an outline of sra-tools usage routine. First, the copmputer (e.g. AWS inst
 
 ## Installation
 Sra-tools as well the aligner or other tools are very convienient to be installed with conda. First, install conda itself. 
-[Miniconda installation instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) explains what to do with the [conda installation script](https://docs.conda.io/en/latest/miniconda.html "Miniconda installtion script"). To download the script using the command-line, you can use wget command. 
+[conda installation instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) explains what to do with the [conda installation script](https://docs.conda.io/en/latest/miniconda.html "Miniconda installtion script"). To download the script using the command-line, you can use wget command. 
 
 Conda suggest to modify the shell prompt after installation. I wuold say no and just add conda/bin (usually, it is ~/mniconda3/bin) to path. Now, install [sra-tools](https://anaconda.org/bioconda/sra-tools "sra-tooks installtion page in conda"), [salmon](https://anaconda.org/bioconda/salmon "salmon installtion page in conda"). etc. You are to do it once for a new user, then sometimes [update conda](https://docs.conda.io/projects/conda/en/latest/commands/update.html) if you like.
 
