@@ -7,6 +7,8 @@ The [conda installation instructions](https://docs.conda.io/projects/conda/en/la
 
 Conda suggest to modify the shell prompt after installation. I wuold say no and just add conda/bin (usually, it is ~/mniconda3/bin) to path. Now, install [sra-tools](https://anaconda.org/bioconda/sra-tools "sra-tooks installtion page in conda"), [salmon](https://anaconda.org/bioconda/salmon "salmon installtion page in conda"). etc. You are to do it once for a new user, then sometimes [update conda](https://docs.conda.io/projects/conda/en/latest/commands/update.html) if you like.
 
+[Here are the detailed instruction how to install conda, sra-tools and salmon on aws instance](https://github.com/FertigLab/sra-tools-notes/blob/master/conda-on-aws-stepwise.md).
+
 ## dbGaP key and folder
 Usually, the FastQ file is controlled thing and you are to have access. Technically, it means that you have the keyfile from dbGaP. Usually, its name is something like prj_NNNNNNN.ngc. NNNNN is a number of dbGaP -- our is 23539. To start working with the project, say:
 
